@@ -3,7 +3,9 @@ kind: Kustomization
 resources:
   - binder.yaml
   - dispatcher.yaml
-  - scheduler.yaml
+  - scheduler-0.yaml
+  - scheduler-1.yaml
+  - scheduler-2.yaml
   - binder-config-demo.yaml
   - scheduler-config-demo.yaml
   - controller-manager.yaml
